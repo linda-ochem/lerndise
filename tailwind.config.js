@@ -7,6 +7,8 @@ export default {
         "lerndis-white": "#F8F8F8",
         "lerndis-orange": "#FB8500",
         "lerndis-black-pearl": "#000814",
+        "lerndis-grey": "#F2F2F2",
+        "lerndis-text-black": "#0A0A0A",
       },
     },
     fontFamily: {
