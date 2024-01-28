@@ -5,7 +5,7 @@ import value from "../assets/value.png";
 const Values = () => {
   return (
     <>
-      <section className="mb-20 flex gap-x-6">
+      <section className="mb-20 flex justify-between">
         <div className="bg-[#001D3D] rounded-t-2xl">
           <Card>
             <img src={mission} alt="" />

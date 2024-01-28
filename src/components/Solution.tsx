@@ -12,8 +12,8 @@ const Solution = () => {
   ];
   const [selected, setSelected] = useState(1);
   return (
-    <div className="font-body flex gap-x-7 ">
-      <div className="w-2/5 flex flex-col justify-between">
+    <div className="font-body flex gap-x-7">
+      <div className="w-1/2 flex flex-col justify-between">
         <ul className="p-0 list-none text-base/[28px] flex flex-col gap-y-8">
           {list.map((item) => (
             <li

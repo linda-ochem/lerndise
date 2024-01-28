@@ -10,7 +10,7 @@ const App = () => {
       <div className="pt-6 pb-6 bg-lerndis-white shadow-xl">
         <NavBar />
       </div>
-      <div className="container w-[990px] mx-auto my-12">
+      <div className="container w-[830px] mx-auto my-12">
         <GetStarted />
         <Values />
         <BlobSection/>

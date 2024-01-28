@@ -34,7 +34,7 @@ const GetStarted = () => {
             </div>
           </div>
         </div>
-        <img className="w-1/2" src={getstartedImg} alt="An Illustration" />
+        <img className="w-1/2 object-cover" src={getstartedImg} alt="An Illustration" />
       </section>
     </>
   );

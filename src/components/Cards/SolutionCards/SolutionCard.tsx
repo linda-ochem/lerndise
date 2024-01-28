@@ -13,7 +13,7 @@ interface Props {
 
 const SolutionCard = ({ selectedItemImage, children, list }: Props) => {
   return (
-    <div className="text-lg/[32px] w-2/5 h-[560px] bg-lerndis-grey">
+    <div className="text-lg/[32px] w-3/6 h-[560px] bg-lerndis-grey">
       <div className="bg-lerndis-black-pearl rounded-t-2xl w-full flex justify-center">
         {selectedItemImage == 1 ? (
           <img src={AiImg} alt="" />
@@ -31,14 +31,8 @@ const SolutionCard = ({ selectedItemImage, children, list }: Props) => {
         <p className="mb-4">{children}</p>
         {list?.map((item) => (
           <div className="flex gap-x-1">
-            <img
-              className="mt-1 w-[20px] h-[20px]"
-              src={hicon}
-              alt=""
-            />
-            <p className="text-base/[28px] mb-4">
-              {item}
-            </p>
+            <img className="mt-1 w-[20px] h-[20px]" src={hicon} alt="" />
+            <p className="text-base/[28px] mb-4">{item}</p>
           </div>
         ))}
       </div>
