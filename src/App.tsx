@@ -3,6 +3,9 @@ import GetStarted from "./components/GetStarted";
 import Values from "./components/Values";
 import Solution from "./components/Solution";
 import BlobSection from "./components/BlobSection";
+import PlatformFeat from "./components/Platformfeatures";
+import ContactSales from "./components/ContactSales";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -16,6 +19,11 @@ const App = () => {
         <BlobSection/>
         <Solution />
       </div>
+      <PlatformFeat />
+      <ContactSales />
+      <div className="container w-[990px] mx-auto my-12">
+      </div>
+      <Footer />
     </>
   );
 };
