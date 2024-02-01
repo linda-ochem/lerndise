@@ -1,10 +1,7 @@
-// import twitter from "../assets/twitter.svg";
-// import instagram from "../assets/instagram.svg";
-// import linkedin from "../assets/linkedin.svg";
-// import facebook from "../assets/facebook.svg";
-import { Twitter } from "./Svgs/Twitter";
-
-
+import twitter from "../assets/Twitter.svg";
+import instagram from "../assets/instagram.svg";
+import linkedin from "../assets/linkedin.svg";
+import facebook from "../assets/facebook.svg";
 
 const Footer = () => {
   return (
@@ -15,11 +12,10 @@ const Footer = () => {
             Lerndise
           </h1>
           <div className="flex justify-center">
-            <Twitter/>
-            {/* <img className="ml-4" src={twitter} alt="Twitter Icon" />
+            <img className="ml-4" src={twitter} alt="Twitter Icon" />
             <img className="ml-4" src={instagram} alt="Instagram Icon" />
             <img className="ml-4" src={linkedin} alt="Linkedin Icon" />
-            <img className="ml-4" src={facebook} alt="Facebook Icon" /> */}
+            <img className="ml-4" src={facebook} alt="Facebook Icon" />
           </div>
         </div>
         <p className="text-lerndis-white flex justify-center mb-4">
